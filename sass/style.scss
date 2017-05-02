@@ -1,3 +1,5 @@
+@import 'global';
+
 * {
 	box-sizing: border-box;
 }
@@ -8,16 +10,30 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 10%;
 	height: 80px;
-	margin: 10px;
+	margin: 0 auto;
 	padding: 10px;
 	font-family: 'Slabo 27px', serif;
 	text-align: center;
 	font-size: 22px;
-	text-decoration: underline grey;
 }
 
+hr {
+	width: 40px;
+}
 
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 40px;
+}
 
+.gallery-item {
+	margin: 30px;
+	content-align: space-around;
+}
+// .gallery div {
+// 	border: 1px solid grey;
+// }
 	
