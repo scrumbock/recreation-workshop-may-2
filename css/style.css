@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  color: grey; }
+
+header {
+  width: 100%;
+  height: 80px;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: underline grey; }
+
+/*# sourceMappingURL=style.css.map */
